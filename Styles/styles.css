@@ -185,10 +185,6 @@ header {
   width: calc(60% + 1vw);
   height: calc(60% + 1vw);
 }
-.card:hover {
-  animation: shake 0.5s;
-  animation-iteration-count:0.5, 0, infinite;
-}
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -278,7 +274,10 @@ header {
   .description{
     margin:2rem 0rem;
   }
-
+  .card:hover {
+    animation: shake 0.5s;
+    animation-iteration-count:0.5, 0, infinite;
+  }
 }
 
 
